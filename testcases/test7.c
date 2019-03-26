@@ -1,0 +1,27 @@
+/* mix of everything */
+
+void main () 
+{
+  	int i, c, d;
+	int a;
+
+	a = 8;
+	i = 4;
+	c = 3;
+	i = ((c*i)/(c-i));
+
+	if(c>10 || c<0)
+	{
+		i = 2;
+		while(a==i)
+		{
+			d=d*6;
+		}
+	
+	}
+	else
+	{
+		i = 6;
+	}
+
+}

@@ -1,0 +1,24 @@
+/* switch statement  */
+
+void main () 
+{
+	float a;
+	a = 4.6798;
+
+        struct stud1
+	{
+		int roll;
+		float n;
+	}s1, s2;
+
+	s1.roll = 5;
+	s1.n = 10.3;
+
+	switch(s1.roll)
+	{
+		case 3:	printf("\nIn case 3\n");	break;
+		case 4:	printf("\nIn case 4\n");	break;
+		case 5:	printf("\nIn case 5\n");	break;
+	}
+	return;
+}

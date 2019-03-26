@@ -1,0 +1,21 @@
+testcases
+
+while
+switch
+function/-call
+if-else
+nesting
+
+expressions
+
+struct 
+
+---------------------------------------------------------------
+
+Things to remember
+variable names should be single letter (okay for struct)
+precedence among *,\,-,+ not followed
+break/continue don't work within if
+int a =5 doesn't work
+don't give same variable names
+all user-functions to be defined on top 

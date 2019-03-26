@@ -1,0 +1,15 @@
+/* basic expressions  */
+
+void main()
+{
+	int a, b, c;
+	
+	a = 8;	
+	b = 9;
+	c = 4;
+
+	a = a+b*c;
+	printf("\n\n");
+	a = a*b+c;
+}
+
