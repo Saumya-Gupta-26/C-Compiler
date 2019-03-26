@@ -1,0 +1,16 @@
+$F0: 
+$L1:
+$t1	=	i	<=	10
+if( not $t1)	goto $L2
+$t2	=	i	*	a
+f	=	$t2
+print statement
+$t3	=	i	+	1
+i	=	$t3
+		goto $L1
+$L2: 
+return
+$F1: 
+mult.x	=	10
+call $F0: 
+return
